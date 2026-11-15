@@ -35,7 +35,7 @@
            Giấy ngà, mực nâu đen, nét mảnh, một họ chữ serif. Không bo tròn lớn,
            không kính mờ, không đổ bóng dày: mọi khung chỉ là một nét kẻ 1 px. */
         :root {
-            --map-paper: #ebe4d4;   /* nền ngoài khung & đất nước ngoài (trùng MAP_PAPER trong JS) */
+            --map-paper: #E2D6C0;   /* nền ngoài khung & đất nước ngoài (trùng MAP_PAPER trong JS) */
             --paper: #f8f4ec;       /* nền bảng điều khiển, sáng hơn nền bản đồ một bậc */
             --ink: #26221b;
             --ink-2: #5f584a;
@@ -925,7 +925,7 @@
         // Màu khai MỘT chỗ ở đây; lớp vẽ, dải màu DEM và bảng chú giải đều đọc lại
         // từ các bảng này (màu `c` nướng trong GEO chỉ còn là dự phòng).
         // Giấy nền: nền ngoài khung và đất nước ngoài — trùng --map-paper trong CSS.
-        const MAP_PAPER = '#ebe4d4';
+        const MAP_PAPER = '#E2D6C0';
         const HALO = '#fbf8f1';
         const INK = '#26221b';
         // Biển: thang lam nhạt kiểu atlas in — nhạt dần vào bờ, sâu nhất vẫn đủ
@@ -2106,7 +2106,7 @@ onmessage = e => {
                     'sky-horizon-blend': 0.5,
                     'horizon-color': '#efe9dc',
                     'horizon-fog-blend': 0.6,
-                    'fog-color': '#ebe4d4',
+                    'fog-color': '#E2D6C0',
                     'fog-ground-blend': 0.5
                 }
             }
